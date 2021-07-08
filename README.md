@@ -84,8 +84,8 @@ $ ipfs daemon --enable-pubsub-experiment & node index.js
  ```
 
 ## What's next?
-This _"Hello World"_ tutorial will be followed by another **Full Stack** tutorial that integrates the blockchain and frontend parts. It will share the core code with this tutorial. In addition, it will also guide you to put your dApp in production on a public web hosting service like Netlify.
+This _"Hello World"_ tutorial will be followed by another **Full Stack** tutorial that integrates the blockchain and frontend parts. It will share the core code with this tutorial.
 
-To be complete, you have a [tutorial here](./TUTO-1.md) to guide you through the pieces of code and get acquainted to blockchain programming and IPFS. 
+To be complete, you have a [tutorial here](./TUTO-1.md) to guide you through the pieces of code and get acquainted to IPFS and OrbitDB programming. 
 
 It is becoming easy to be a production Full Stack blockchain + IPFS programmer. Stay tuned.
