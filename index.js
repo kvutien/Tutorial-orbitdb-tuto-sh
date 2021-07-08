@@ -1,28 +1,26 @@
 /*
  * create an orbitDB key-value database of pet animals
  */
+// import the packages
 const IPFS = require('ipfs-http-client');
 const OrbitDB = require('orbit-db');
 
 async function main () {
-    const ipfsOptions = {/*    EXPERIMENTAL: {
-        pubsub: true
-      }*/
-   };    // placeholder
+    const ipfsOptions = {   };    // placeholder
     const ipfs = await IPFS.create(ipfsOptions);
     console.log('-> IPFS node connected');
     const orbitdb = await OrbitDB.createInstance(ipfs);
     console.log('-> OrbitDB instance created');
     
     // First stage, create and populate database with 2 key-value pairs
-    // in OrbitDB, 1 database = 1 pet
+    // in OrbitDB, 1 key-value database = 1 pet
     const db1 = await orbitdb.keyvalue('pet-animal');
     await db1.put('species', 'German Shepherd', { pin: true });
     await db1.put('owner', 'myself', { pin: true });
     console.log('-> One pet animal created');
     await db1.close();
 
-    // 2nd stage, use the database
+    // 2nd stage, reopen and retrieve from the database
     const db2 = await orbitdb.keyvalue('pet-animal');
     await db2.load();
     let species = db2.get('species');
