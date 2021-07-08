@@ -10,7 +10,7 @@ This project is the simplest possible example of a decentralised database using 
 
 ![Demo overview](./demo-overview.png)
 
-The next step is to add a blockchain backend and a React frontend interface to record the credentials of the entry. Doing so, we separate the immutable part --the credentials of the owner of the data-- from the mutable data itself. This is the basis principle of **Machu Picchu**, a collaborative open source initiative to improve the action of the humanitarians to assist the persons-in-need, by giving back the onwership of data to each person-in-need.
+The next tutorial will add a blockchain backend and a React frontend interface to record the credentials of the entry. Doing so, we separate the immutable part --the credentials of the owner of the data-- from the mutable data itself. This is the basis principle of **Machu Picchu**, a collaborative open source initiative to improve the action of the humanitarians to assist the persons-in-need, by giving back the onwership of data to each person-in-need.
 
 It is part of a series of tutorial articles intended to convince you, IT people working for humanitarians, that blockchain and decentralised programming is not so daunting and can lower your operating costs while bringing a lot of benefits. Join us in project *[Machu Picchu](https://kvutien-yes.medium.com/machu-picchu-how-the-blockchain-can-help-persons-in-need-8396820d13d1)*.
 
