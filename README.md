@@ -20,7 +20,7 @@ It is part of a series of tutorial articles intended to convince you, IT people 
 * easy collection of feedback from recipients
 * coordination among all actors
 
-In 2019, Cash & Voucher Assistance programmes accounted for USD 5.6 Bn, double of 2016. Huge solvent market.
+**In 2019, Cash & Voucher Assistance programmes accounted for USD 5.6 Bn, double of 2016. Huge solvent market.**
 
 To use this demo, simply follow the setup instructions below. To reproduce the coding yourself, follow the [coding tutorial](TUTO-1.md) (in progress).
 
