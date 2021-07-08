@@ -32,34 +32,50 @@ This setup complements your configuration and serves many purposes, not only thi
 * Install nodeJS via brew: `brew install node@14.17.0`  (this version of nodeJS is the last long term stable support)
 
 ### Setup this specific application, using MacOS
-* Clone this repository
+* In the console (`Terminal`), clone this repository
 ``` bash
 $ git clone https://github.com/kvutien/orbitdb-tuto-sh.git
     Cloning into 'orbitdb-tuto-sh'...
-    remote: Enumerating objects: 35, done.
-    remote: Counting objects: 100% (35/35), done.
-    remote: Compressing objects: 100% (31/31), done.
-    remote: Total 35 (delta 4), reused 35 (delta 4), pack-reused 0
-    Receiving objects: 100% (35/35), 770.87 KiB | 4.21 MiB/s, done.
-    Resolving deltas: 100% (4/4), done.
+    remote: Enumerating objects: 120, done.
+    remote: Counting objects: 100% (120/120), done.
+    remote: Compressing objects: 100% (95/95), done.
+    remote: Total 120 (delta 37), reused 39 (delta 8), pack-reused 0
+    Receiving objects: 100% (120/120), 85.47 KiB | 1.94 MiB/s, done.
+    Resolving deltas: 100% (37/37), done.
 $ cd orbitdb-tuto-sh
+$
 ```
 * install the dependencies
 ``` bash
 $ npm install
     ...
-    found 566 vulnerabilities (1 low, 565 high)
+    added 401 packages from 408 contributors and audited 401 packages in 23.853s
+    ...
+    found 3 high severity vulnerabilities
     run `npm audit fix` to fix them, or `npm audit` for details
 $
 ```
 * disregard the warnings. Run the demo by typing
 ``` bash
 $ ipfs daemon --enable-pubsub-experiment & node index.js
+    [1] 28719
+    Initializing daemon...
+    go-ipfs version: 0.7.0
+    Repo version: 10
+    System version: amd64/darwin
+    Golang version: go1.14.4
+    Swarm listening on /ip4/127.0.0.1/tcp/4001
+    Swarm listening on /ip4/127.0.0.1/udp/4001/quic
+    ...
+    WebUI: http://127.0.0.1:5001/webui
+    Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+    Daemon is ready
+
 ```
-* your console will display
+* your console will also display the output of the application
 ```
--> IPFS node created
--> OrbitDB instance connected
+-> IPFS node connected
+-> OrbitDB instance created
 -> One pet animal created
  -> database value of "species" =  German Shepherd
  -> database value of "owner" =  myself
