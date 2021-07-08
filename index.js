@@ -1,5 +1,6 @@
 /*
  * create an orbitDB key-value database of pet animals
+ * July 2021 - (c) Vu Tien Khang - Machu Picchu
  */
 // import the packages
 const IPFS = require('ipfs-http-client');
