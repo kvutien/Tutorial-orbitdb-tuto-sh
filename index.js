@@ -20,7 +20,6 @@ async function main () {
     await db1.put('owner', 'myself', { pin: true });
     console.log('-> One pet animal created');
     await db1.close();
-    console.log('    db1', db1);
 
     // 2nd stage, reopen and retrieve from the database
     const db2 = await orbitdb.keyvalue('pet-animal');
