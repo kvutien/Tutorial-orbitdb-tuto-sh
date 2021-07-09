@@ -89,3 +89,15 @@ This _"Hello World"_ tutorial will be followed by another **Full Stack** tutoria
 To be complete, you have a [tutorial here](./TUTO-1.md) to guide you through the pieces of code and get acquainted to IPFS and OrbitDB programming. 
 
 It is becoming easy to be a production Full Stack blockchain + IPFS programmer. Stay tuned.
+
+## Side note on the API.md documentation in Orbit-db github
+The API documentation would gain in clarity if it contains
+https://github.com/orbitdb/orbit-db/blob/main/API.md
+
+1.    A short definition.
+2.    A block with the correct syntax for using the method.
+3.    A list of parameters the method accepts or requires.
+4.    The return value of the function.
+5.    An extended description.
+6.    Examples of the method’s use.
+7.    Other additional information.
